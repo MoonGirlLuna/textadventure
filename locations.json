@@ -1,0 +1,44 @@
+{
+    "Computer Room": {
+        "objects": {
+            "Computer": {
+                "interactable": true
+            },
+            "Northern Door": {
+                "interactable": true,
+                "gotoroom": "hallway"
+            }
+        },
+        "verbs": {
+            "go north": {
+
+            },
+            "use computer": {
+
+            }
+        },
+        "onEntry": "You are in a dark room. With only a COMPUTER, and a monitor dimly illuminating the room. Type LOOK to see your surroundings."
+    },
+
+
+    
+    "hallway": {
+        "objects": {
+            "Northern Door": {
+                "interactable": true
+            },
+            "Western Door": {
+                "interactable": false
+            },
+            "Vase": {
+                "interactable": true,
+                "contains": {
+                    "key": {
+                        "grabable": true
+                    }
+                }
+            }
+        },
+        "onEntry": "You have entered a brightly lit hallway. In the hallway you notice a VASE and two doors. One to the east and one to the north."
+    }
+}

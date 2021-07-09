@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+}
+
+h1 {
+    background-color: white;
+}
+
+#userText {
+    margin-left: 25%;
+    justify-content: center;
+    background-color: grey;
+    text-align: left;
+    height: 35%;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+#userInput {
+    width: 50%;
+    padding: 10px;
+    border:none;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+
+#command {
+    display:inline;
+    font-weight: bolder;
+}
