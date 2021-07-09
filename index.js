@@ -52,7 +52,7 @@ function listLocation() {
 
 function win() {
     if (userInput.value.toLowerCase() === "win") {
-        printBold("You Won! Refresh to play again!")
+        printBold("You Won! Refresh to play again!!")
         document.getElementById("userInput").disabled = true;
     }
 }
