@@ -1,15 +1,8 @@
 const userInput = document.getElementById("userInput");
-var locations;
 var currentLocation;
 let gameOver;
 
-async function parseJson() {
-    const result = await fetch("./locations.json")
-    locations = await result.json()
-}
-
-async function main() {
-    await parseJson();
+function main() {
     currentLocation = Object.keys(locations)[0]
     printBold(locations[currentLocation].onEntry)
 }

@@ -1,3 +1,4 @@
+let locations =
 {
     "Computer Room": {
         "objects": {
@@ -6,22 +7,22 @@
             },
             "Northern Door": {
                 "interactable": true,
-                "gotoroom": "hallway"
+                    "gotoroom": "hallway"
             }
         },
         "verbs": {
-            "go north": {
-
+            "go north": function(inventory, currentLocation, etc) {
+              printBold("uwu");
             },
-            "use computer": {
-
+            "go east": function(inventory, currentLocation, etc) {
+              printBold("uwuwu");
             }
-        },
+          },
         "onEntry": "You are in a dark room. With only a COMPUTER, and a monitor dimly illuminating the room. Type LOOK to see your surroundings."
     },
 
 
-    
+
     "hallway": {
         "objects": {
             "Northern Door": {
@@ -32,7 +33,7 @@
             },
             "Vase": {
                 "interactable": true,
-                "contains": {
+                    "contains": {
                     "key": {
                         "grabable": true
                     }
