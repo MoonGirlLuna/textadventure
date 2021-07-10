@@ -26,6 +26,7 @@ a {
     text-align: right;
     float: right;
     padding-right: 2%;
+	user-select: none;
 }
 
 #terminal {
