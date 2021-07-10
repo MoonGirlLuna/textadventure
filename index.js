@@ -11,7 +11,7 @@ main()
 
 userInput.onkeypress = function (event) {
     if (event.keyCode == 13) {
-        printText(userInput.value)
+        printText(">" + " " + userInput.value)
         commandInput()
         userInput.value = ""
     }

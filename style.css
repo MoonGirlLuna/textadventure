@@ -1,18 +1,56 @@
 body {
     text-align: center;
-    background-color: rgb(60, 60, 60);
+    background-color: black;
+    font-family: "Courier New", monospace;
 }
 
-h1 {
-    background-color: white;
+h3 {
+    margin: auto;
+    text-align: right;
+    float: right;
+    padding: 1%;
+}
+
+h2 {
+    text-align: center;
+    display:inline;
+    padding: 1%;
+}
+
+#infobox {
+    text-align: center;
+    background: rgb(60, 60, 60);
+    color:white;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#roundedtop {
+    border-top: solid;
+    border-radius: 10px 10px 0px 0px;
+    border-color: rgb(60, 60, 60);
+    border-bottom-style: none;
+    height: 5%;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: rgb(60, 60, 60);
+    position: relative;
+    color:white;
+    font-weight: bolder;
+    word-spacing: 10px;
+    
 }
 
 #userText {
     margin-left: 25%;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(60, 60, 60);
+    color: white;
     text-align: left;
-    height: 35%;
+    height: 45%;
     width: 50%;
     overflow-y: scroll;
 }
@@ -21,11 +59,15 @@ h1 {
     width: 50%;
     padding: 10px;
     border:none;
-    margin-top: 10px;
-    margin-right: 13px;
+    background-image: url('./greaterthans.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background: rgb(60, 60, 60);
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
 }
 
-#command {
-    display:inline;
-    font-weight: bolder;
+#userInput:focus {
+    outline: none;
 }
