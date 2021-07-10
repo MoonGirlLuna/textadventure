@@ -56,3 +56,9 @@ function isgameOver() {
         document.getElementById("userInput").disabled = true;
     }
 }
+
+function listCommands() {
+    if (userInput.value.toLowerCase() === "commands") {
+        printBold(Object.keys(locations[currentLocation].visibleVerbs).join(", "))
+}
+}
