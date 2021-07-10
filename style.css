@@ -16,6 +16,10 @@ p {
     padding-left: 1%;
 }
 
+a {
+	color: #fdffea;
+}
+
 #fakebuttons {
     margin: auto;
     padding-top: 1%;
