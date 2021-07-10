@@ -4,17 +4,21 @@ body {
     font-family: "Courier New", monospace;
 }
 
-h3 {
-    margin: auto;
-    text-align: right;
-    float: right;
-    padding: 1%;
+p {
+    padding-left: 1%;
 }
 
-h2 {
-    text-align: center;
-    display:inline;
-    padding: 1%;
+#fakebuttons {
+    margin: auto;
+    padding-top: 1%;
+    text-align: right;
+    float: right;
+    padding-right: 2%;
+}
+
+#terminal {
+    display:inline-block;
+    font-weight: bolder;
 }
 
 #infobox {
@@ -31,7 +35,9 @@ h2 {
     border-top: solid;
     border-radius: 10px 10px 0px 0px;
     border-color: rgb(60, 60, 60);
-    border-bottom-style: none;
+    border-bottom: solid;
+    border-bottom-color: darkgray;
+    border-width: 1px;
     height: 5%;
     width: 50%;
     margin-top: 5%;
@@ -41,7 +47,7 @@ h2 {
     color:white;
     font-weight: bolder;
     word-spacing: 10px;
-    
+    text-align: center;
 }
 
 #userText {
@@ -64,8 +70,9 @@ h2 {
     background-repeat: no-repeat;
     background: rgb(60, 60, 60);
     color: white;
-    padding-left: 40px;
-    padding-top: 10px;
+    border-top: solid;
+    border-color: darkgray;
+    border-width: 1px;
 }
 
 #userInput:focus {

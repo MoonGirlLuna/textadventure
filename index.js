@@ -59,6 +59,7 @@ function isgameOver() {
 
 function listCommands() {
     if (userInput.value.toLowerCase() === "commands") {
-        printBold(Object.keys(locations[currentLocation].visibleVerbs).join(", "))
+        //printBold(Object.keys(locations[currentLocation].visibleVerbs).join(", "))
+        printBold("Commands, Look, Inventory, Location.")
 }
 }
