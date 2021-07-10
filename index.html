@@ -1,15 +1,33 @@
+<html lang="en-US">
 <head>
     <link rel="stylesheet" href="style.css">
+
+	<!-- metadata -->
+	<meta charset="UTF-8">
+	<meta name="author" content="Luna">
+
+	<meta name="og:title" content="Text Adventure">
+	<meta name="og:description" content="A small text adventure made in javascript by a beautiful girl">
+	<meta name="og:image" content="/greaterthans.png">
+
+	<link rel="icon" href="/greaterthans.png">
+
 </head>
 <body>
+	<!-- top of terminal window -->
     <div id="roundedtop"><h2 id="terminal">Terminal</h2><h2 id="fakebuttons">_ &#9744 X</h2></div>
+	<!-- the main text area -->
     <div id="userText">
         <p></p>
     </div>
+	<!-- user input -->
     <input type="text" id="userInput" name="inputBox" placeholder="Command">
+	<!-- info box at the bottom -->
 	<div id="infobox"><h4>Info:</h4><p>This game and website are a complete work in progress. None of this is final. If you have any suggestions feel free to contact <a href="https://kitty.lgbt/about/" alt="Luna's contact info">Luna</a>.</p></div>
+	<!-- load scripts -->
     <script src="verbhandler.js"></script>
     <script src="inventory.js"></script>
     <script src="locations.js"></script>
     <script src="index.js"></script>
 </body>
+</html>
